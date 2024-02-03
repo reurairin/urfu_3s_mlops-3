@@ -1,0 +1,240 @@
+[2024-02-03T04:00:18.226+0400] {processor.py:161} INFO - Started process (PID=5692) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:00:18.227+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:00:18.227+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:00:18.227+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:00:18.259+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:00:18.258+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:00:18.259+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:00:18.270+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.045 seconds
+[2024-02-03T04:01:13.590+0400] {processor.py:161} INFO - Started process (PID=5923) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:01:13.590+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:01:13.591+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:01:13.591+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:01:13.621+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:01:13.620+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:01:13.622+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:01:13.633+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.046 seconds
+[2024-02-03T04:02:03.432+0400] {processor.py:161} INFO - Started process (PID=6137) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:02:03.439+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:02:03.439+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:02:03.439+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:02:03.469+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:02:03.468+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:02:03.469+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:02:03.480+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.050 seconds
+[2024-02-03T04:02:56.363+0400] {processor.py:161} INFO - Started process (PID=6361) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:02:56.370+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:02:56.371+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:02:56.371+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:02:56.402+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:02:56.401+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:02:56.402+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:02:56.412+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.051 seconds
+[2024-02-03T04:03:51.156+0400] {processor.py:161} INFO - Started process (PID=6592) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:03:51.164+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:03:51.164+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:03:51.164+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:03:51.196+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:03:51.195+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:03:51.197+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:03:51.211+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.056 seconds
+[2024-02-03T04:04:40.288+0400] {processor.py:161} INFO - Started process (PID=6800) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:04:40.295+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:04:40.295+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:04:40.295+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:04:40.326+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:04:40.325+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:04:40.326+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:04:40.337+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.052 seconds
+[2024-02-03T04:05:36.515+0400] {processor.py:161} INFO - Started process (PID=7045) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:05:36.516+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:05:36.516+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:05:36.516+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:05:36.549+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:05:36.548+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:05:36.549+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:05:36.560+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.048 seconds
+[2024-02-03T04:06:24.875+0400] {processor.py:161} INFO - Started process (PID=7300) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:06:24.876+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:06:24.877+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:06:24.876+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:06:24.902+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:06:24.901+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:06:24.902+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:06:24.913+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.040 seconds
+[2024-02-03T04:07:20.273+0400] {processor.py:161} INFO - Started process (PID=7538) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:07:20.274+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:07:20.275+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:07:20.275+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:07:20.305+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:07:20.304+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:07:20.305+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:07:20.316+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.045 seconds
+[2024-02-03T04:08:11.646+0400] {processor.py:161} INFO - Started process (PID=7762) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:08:11.653+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:08:11.653+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:08:11.653+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:08:11.677+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:08:11.677+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:08:11.678+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:08:11.688+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.044 seconds
+[2024-02-03T04:09:03.957+0400] {processor.py:161} INFO - Started process (PID=7977) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:09:03.958+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:09:03.959+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:09:03.958+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:09:03.990+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:09:03.989+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:09:03.990+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:09:04.002+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.046 seconds
+[2024-02-03T04:09:54.063+0400] {processor.py:161} INFO - Started process (PID=8269) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:09:54.070+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2024-02-03T04:09:54.071+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:09:54.071+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:09:54.100+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:09:54.099+0400] {dagbag.py:348} ERROR - Failed to import: /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py", line 138, in <module>
+    branching_venv = BranchPythonVirtualenvOperator(
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-03T04:09:54.100+0400] {processor.py:842} WARNING - No viable dags retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2024-02-03T04:09:54.111+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.049 seconds

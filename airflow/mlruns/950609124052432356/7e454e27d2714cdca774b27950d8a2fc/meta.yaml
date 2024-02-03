@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/950609124052432356/7e454e27d2714cdca774b27950d8a2fc/artifacts
+end_time: 1706917211901
+entry_point_name: ''
+experiment_id: '950609124052432356'
+lifecycle_stage: active
+run_id: 7e454e27d2714cdca774b27950d8a2fc
+run_name: learned-turtle-849
+run_uuid: 7e454e27d2714cdca774b27950d8a2fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706917211881
+status: 3
+tags: []
+user_id: reurairin

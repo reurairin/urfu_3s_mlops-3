@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/914482116608973264/8fe17187ea2846e79422a887863994d8/artifacts
+end_time: 1706916193201
+entry_point_name: ''
+experiment_id: '914482116608973264'
+lifecycle_stage: active
+run_id: 8fe17187ea2846e79422a887863994d8
+run_name: popular-midge-843
+run_uuid: 8fe17187ea2846e79422a887863994d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706916192971
+status: 4
+tags: []
+user_id: reurairin

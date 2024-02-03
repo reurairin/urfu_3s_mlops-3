@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/914482116608973264/25fcf55fc4b94eff87bab28657506cdb/artifacts
+end_time: 1706916176905
+entry_point_name: ''
+experiment_id: '914482116608973264'
+lifecycle_stage: active
+run_id: 25fcf55fc4b94eff87bab28657506cdb
+run_name: welcoming-crab-659
+run_uuid: 25fcf55fc4b94eff87bab28657506cdb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706916176512
+status: 4
+tags: []
+user_id: reurairin

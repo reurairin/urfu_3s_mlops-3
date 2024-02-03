@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/914482116608973264/3dff0f7f2ef64d389656954bfb794486/artifacts
+end_time: 1706917321535
+entry_point_name: ''
+experiment_id: '914482116608973264'
+lifecycle_stage: active
+run_id: 3dff0f7f2ef64d389656954bfb794486
+run_name: incongruous-owl-658
+run_uuid: 3dff0f7f2ef64d389656954bfb794486
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706917321186
+status: 3
+tags: []
+user_id: reurairin

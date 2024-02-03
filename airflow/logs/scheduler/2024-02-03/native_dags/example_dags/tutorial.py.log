@@ -1,0 +1,112 @@
+[2024-02-03T04:00:26.486+0400] {processor.py:161} INFO - Started process (PID=5724) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:00:26.486+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:00:26.487+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:00:26.487+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:00:26.491+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:00:26.500+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:00:26.500+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:00:26.510+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:00:26.509+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:00:26.524+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.040 seconds
+[2024-02-03T04:01:04.451+0400] {processor.py:161} INFO - Started process (PID=5888) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:01:04.458+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:01:04.459+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:01:04.459+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:01:04.463+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:01:04.473+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:01:04.473+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:01:04.483+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:01:04.483+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:01:04.497+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.047 seconds
+[2024-02-03T04:01:51.690+0400] {processor.py:161} INFO - Started process (PID=6088) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:01:51.697+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:01:51.697+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:01:51.697+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:01:51.701+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:01:51.710+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:01:51.709+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:01:51.719+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:01:51.719+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:01:51.731+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2024-02-03T04:02:26.430+0400] {processor.py:161} INFO - Started process (PID=6228) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:02:26.431+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:02:26.432+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:02:26.432+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:02:26.435+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:02:26.445+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:02:26.445+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:02:26.456+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:02:26.455+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:02:26.470+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.042 seconds
+[2024-02-03T04:03:01.502+0400] {processor.py:161} INFO - Started process (PID=6379) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:03:01.503+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:03:01.504+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:03:01.504+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:03:01.508+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:03:01.518+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:03:01.518+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:03:01.529+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:03:01.529+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:03:01.545+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2024-02-03T04:03:38.606+0400] {processor.py:161} INFO - Started process (PID=6540) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:03:38.607+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:03:38.608+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:03:38.608+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:03:38.612+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:03:38.621+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:03:38.621+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:03:38.632+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:03:38.631+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:03:38.646+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.041 seconds
+[2024-02-03T04:04:13.455+0400] {processor.py:161} INFO - Started process (PID=6691) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:04:13.457+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:04:13.458+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:04:13.458+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:04:13.465+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:04:13.478+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:04:13.477+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:04:13.497+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:04:13.497+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:04:13.529+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2024-02-03T04:04:45.423+0400] {processor.py:161} INFO - Started process (PID=6818) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:04:45.424+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:04:45.424+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:04:45.424+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:04:45.429+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:04:45.439+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:04:45.438+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:04:45.450+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:04:45.450+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:04:45.464+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.042 seconds
+[2024-02-03T04:05:22.414+0400] {processor.py:161} INFO - Started process (PID=6977) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:05:22.415+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:05:22.415+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:05:22.415+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:05:22.419+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:05:22.430+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:05:22.430+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:05:22.442+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:05:22.442+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:05:22.457+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.045 seconds
+[2024-02-03T04:06:00.438+0400] {processor.py:161} INFO - Started process (PID=7181) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:06:00.446+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:06:00.446+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:06:00.446+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:06:00.450+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:06:00.459+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:06:00.459+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:06:00.470+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:06:00.469+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:06:00.482+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.046 seconds
+[2024-02-03T04:06:49.528+0400] {processor.py:161} INFO - Started process (PID=7397) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:06:49.530+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:06:49.531+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:06:49.530+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:06:49.536+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:06:49.548+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:06:49.547+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:06:49.560+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:06:49.560+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:06:49.575+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.049 seconds
+[2024-02-03T04:07:28.134+0400] {processor.py:161} INFO - Started process (PID=7570) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:07:28.135+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:07:28.136+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:07:28.135+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:07:28.140+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:07:28.148+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:07:28.148+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:07:28.157+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:07:28.157+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:07:28.170+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.038 seconds
+[2024-02-03T04:08:03.848+0400] {processor.py:161} INFO - Started process (PID=7728) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:08:03.856+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:08:03.856+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:08:03.856+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:08:03.859+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:08:03.868+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:08:03.868+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:08:03.878+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:08:03.877+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:08:03.889+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.043 seconds
+[2024-02-03T04:08:51.426+0400] {processor.py:161} INFO - Started process (PID=7928) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:08:51.433+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:08:51.434+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:08:51.434+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:08:51.438+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:08:51.446+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:08:51.446+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:08:51.455+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:08:51.455+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:08:51.467+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds
+[2024-02-03T04:09:25.637+0400] {processor.py:161} INFO - Started process (PID=8073) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:09:25.644+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:09:25.645+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:09:25.644+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:09:25.648+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:09:25.659+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:09:25.659+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:09:25.671+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:09:25.671+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:09:25.692+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2024-02-03T04:09:59.203+0400] {processor.py:161} INFO - Started process (PID=8298) to work on /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:09:59.210+0400] {processor.py:830} INFO - Processing file /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-02-03T04:09:59.211+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:09:59.210+0400] {dagbag.py:538} INFO - Filling up the DagBag from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:09:59.215+0400] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2024-02-03T04:09:59.223+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:09:59.223+0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-03T04:09:59.233+0400] {logging_mixin.py:188} INFO - [2024-02-03T04:09:59.233+0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-03T04:09:59.245+0400] {processor.py:183} INFO - Processing /home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.044 seconds

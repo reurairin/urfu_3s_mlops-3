@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/914482116608973264/1cc264a9f9064445b5b41a313c60d9c8/artifacts
+end_time: 1706917208104
+entry_point_name: ''
+experiment_id: '914482116608973264'
+lifecycle_stage: active
+run_id: 1cc264a9f9064445b5b41a313c60d9c8
+run_name: awesome-stag-588
+run_uuid: 1cc264a9f9064445b5b41a313c60d9c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706917207853
+status: 3
+tags: []
+user_id: reurairin

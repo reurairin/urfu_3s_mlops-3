@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/914482116608973264/8bfa212e9f574f118c909824a8cfab8a/artifacts
+end_time: 1706917079202
+entry_point_name: ''
+experiment_id: '914482116608973264'
+lifecycle_stage: active
+run_id: 8bfa212e9f574f118c909824a8cfab8a
+run_name: intrigued-toad-139
+run_uuid: 8bfa212e9f574f118c909824a8cfab8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706917078786
+status: 3
+tags: []
+user_id: reurairin

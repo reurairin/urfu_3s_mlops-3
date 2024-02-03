@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/904609899895217134/f441bb13323a4b6c94201aa64f204740/artifacts
+end_time: 1706917338668
+entry_point_name: ''
+experiment_id: '904609899895217134'
+lifecycle_stage: active
+run_id: f441bb13323a4b6c94201aa64f204740
+run_name: sedate-shrew-566
+run_uuid: f441bb13323a4b6c94201aa64f204740
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706917338347
+status: 3
+tags: []
+user_id: reurairin

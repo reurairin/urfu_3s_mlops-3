@@ -1,0 +1,17 @@
+[2024-02-03T03:40:14.336+0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: iris_score.split_data manual__2024-02-02T23:40:04.357518+00:00 [queued]>
+[2024-02-03T03:40:14.340+0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: iris_score.split_data manual__2024-02-02T23:40:04.357518+00:00 [queued]>
+[2024-02-03T03:40:14.340+0400] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-02-03T03:40:14.350+0400] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): split_data> on 2024-02-02 23:40:04.357518+00:00
+[2024-02-03T03:40:14.352+0400] {standard_task_runner.py:60} INFO - Started process 32738 to run task
+[2024-02-03T03:40:14.354+0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'iris_score', 'split_data', 'manual__2024-02-02T23:40:04.357518+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/iris_score.py', '--cfg-path', '/tmp/tmphp03mp7d']
+[2024-02-03T03:40:14.355+0400] {standard_task_runner.py:88} INFO - Job 31: Subtask split_data
+[2024-02-03T03:40:14.378+0400] {task_command.py:423} INFO - Running <TaskInstance: iris_score.split_data manual__2024-02-02T23:40:04.357518+00:00 [running]> on host WIN-IO5IBOGGQDO.localdomain
+[2024-02-03T03:40:14.417+0400] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='iris_score' AIRFLOW_CTX_TASK_ID='split_data' AIRFLOW_CTX_EXECUTION_DATE='2024-02-02T23:40:04.357518+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-02T23:40:04.357518+00:00'
+[2024-02-03T03:40:14.418+0400] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-02-03T03:40:14.418+0400] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/reurairin/projects/urfu/urfu_3s_mlops-3/scripts/split_data.py']
+[2024-02-03T03:40:14.423+0400] {subprocess.py:86} INFO - Output:
+[2024-02-03T03:40:15.414+0400] {subprocess.py:93} INFO - 2024/02/03 03:40:15 INFO mlflow.tracking.fluent: Experiment with name 'split_data' does not exist. Creating a new experiment.
+[2024-02-03T03:40:15.708+0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-02-03T03:40:15.721+0400] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=iris_score, task_id=split_data, execution_date=20240202T234004, start_date=20240202T234014, end_date=20240202T234015
+[2024-02-03T03:40:15.771+0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-03T03:40:15.786+0400] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

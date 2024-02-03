@@ -1,0 +1,18 @@
+[2024-02-03T03:42:11.507+0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: iris_score.train_model manual__2024-02-02T23:41:57.731278+00:00 [queued]>
+[2024-02-03T03:42:11.512+0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: iris_score.train_model manual__2024-02-02T23:41:57.731278+00:00 [queued]>
+[2024-02-03T03:42:11.512+0400] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-02-03T03:42:11.524+0400] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): train_model> on 2024-02-02 23:41:57.731278+00:00
+[2024-02-03T03:42:11.527+0400] {standard_task_runner.py:60} INFO - Started process 963 to run task
+[2024-02-03T03:42:11.529+0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'iris_score', 'train_model', 'manual__2024-02-02T23:41:57.731278+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/iris_score.py', '--cfg-path', '/tmp/tmp5v1wuf4j']
+[2024-02-03T03:42:11.530+0400] {standard_task_runner.py:88} INFO - Job 36: Subtask train_model
+[2024-02-03T03:42:11.557+0400] {task_command.py:423} INFO - Running <TaskInstance: iris_score.train_model manual__2024-02-02T23:41:57.731278+00:00 [running]> on host WIN-IO5IBOGGQDO.localdomain
+[2024-02-03T03:42:11.594+0400] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='iris_score' AIRFLOW_CTX_TASK_ID='train_model' AIRFLOW_CTX_EXECUTION_DATE='2024-02-02T23:41:57.731278+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-02T23:41:57.731278+00:00'
+[2024-02-03T03:42:11.595+0400] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-02-03T03:42:11.595+0400] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/reurairin/projects/urfu/urfu_3s_mlops-3/scripts/train_model.py']
+[2024-02-03T03:42:11.601+0400] {subprocess.py:86} INFO - Output:
+[2024-02-03T03:42:14.599+0400] {subprocess.py:93} INFO - Successfully registered model 'KNN Model'.
+[2024-02-03T03:42:14.605+0400] {subprocess.py:93} INFO - Created version '1' of model 'KNN Model'.
+[2024-02-03T03:42:14.893+0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-02-03T03:42:14.912+0400] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=iris_score, task_id=train_model, execution_date=20240202T234157, start_date=20240202T234211, end_date=20240202T234214
+[2024-02-03T03:42:14.953+0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-03T03:42:14.966+0400] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

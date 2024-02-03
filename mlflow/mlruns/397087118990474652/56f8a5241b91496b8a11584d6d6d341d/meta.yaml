@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/397087118990474652/56f8a5241b91496b8a11584d6d6d341d/artifacts
+end_time: 1706917215497
+entry_point_name: ''
+experiment_id: '397087118990474652'
+lifecycle_stage: active
+run_id: 56f8a5241b91496b8a11584d6d6d341d
+run_name: selective-bird-95
+run_uuid: 56f8a5241b91496b8a11584d6d6d341d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706917215469
+status: 3
+tags: []
+user_id: reurairin

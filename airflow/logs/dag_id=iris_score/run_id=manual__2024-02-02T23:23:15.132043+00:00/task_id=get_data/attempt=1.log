@@ -1,0 +1,28 @@
+[2024-02-03T03:23:17.944+0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: iris_score.get_data manual__2024-02-02T23:23:15.132043+00:00 [queued]>
+[2024-02-03T03:23:17.948+0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: iris_score.get_data manual__2024-02-02T23:23:15.132043+00:00 [queued]>
+[2024-02-03T03:23:17.948+0400] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-02-03T03:23:17.957+0400] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): get_data> on 2024-02-02 23:23:15.132043+00:00
+[2024-02-03T03:23:17.960+0400] {standard_task_runner.py:60} INFO - Started process 28212 to run task
+[2024-02-03T03:23:17.962+0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'iris_score', 'get_data', 'manual__2024-02-02T23:23:15.132043+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/iris_score.py', '--cfg-path', '/tmp/tmp9ihbw4od']
+[2024-02-03T03:23:17.963+0400] {standard_task_runner.py:88} INFO - Job 26: Subtask get_data
+[2024-02-03T03:23:17.985+0400] {task_command.py:423} INFO - Running <TaskInstance: iris_score.get_data manual__2024-02-02T23:23:15.132043+00:00 [running]> on host WIN-IO5IBOGGQDO.localdomain
+[2024-02-03T03:23:18.017+0400] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='iris_score' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-02-02T23:23:15.132043+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-02T23:23:15.132043+00:00'
+[2024-02-03T03:23:18.018+0400] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-02-03T03:23:18.019+0400] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/reurairin/projects/urfu/urfu_3s_mlops-3/scripts/get_data.py']
+[2024-02-03T03:23:18.023+0400] {subprocess.py:86} INFO - Output:
+[2024-02-03T03:23:18.966+0400] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-02-03T03:23:18.966+0400] {subprocess.py:93} INFO -   File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/scripts/get_data.py", line 10, in <module>
+[2024-02-03T03:23:18.966+0400] {subprocess.py:93} INFO -     with open("/home/reurairin/projects/urfu/urfu_3s_mlops-3/data/iris.csv", "w") as f:
+[2024-02-03T03:23:18.966+0400] {subprocess.py:93} INFO - FileNotFoundError: [Errno 2] No such file or directory: '/home/reurairin/projects/urfu/urfu_3s_mlops-3/data/iris.csv'
+[2024-02-03T03:23:19.090+0400] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-02-03T03:23:19.094+0400] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/reurairin/projects/urfu/urfu_3s_mlops-3/env/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-02-03T03:23:19.096+0400] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=iris_score, task_id=get_data, execution_date=20240202T232315, start_date=20240202T232317, end_date=20240202T232319
+[2024-02-03T03:23:19.104+0400] {standard_task_runner.py:107} ERROR - Failed to execute job 26 for task get_data (Bash command failed. The command returned a non-zero exit code 1.; 28212)
+[2024-02-03T03:23:19.138+0400] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-03T03:23:19.151+0400] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

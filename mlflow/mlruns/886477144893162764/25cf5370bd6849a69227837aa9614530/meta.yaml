@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/886477144893162764/25cf5370bd6849a69227837aa9614530/artifacts
+end_time: 1706917219392
+entry_point_name: ''
+experiment_id: '886477144893162764'
+lifecycle_stage: active
+run_id: 25cf5370bd6849a69227837aa9614530
+run_name: treasured-sow-388
+run_uuid: 25cf5370bd6849a69227837aa9614530
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706917219381
+status: 4
+tags: []
+user_id: reurairin

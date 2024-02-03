@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/950609124052432356/9a18b664f8624234ab2067c6deb577a7/artifacts
+end_time: 1706917082964
+entry_point_name: ''
+experiment_id: '950609124052432356'
+lifecycle_stage: active
+run_id: 9a18b664f8624234ab2067c6deb577a7
+run_name: omniscient-goat-243
+run_uuid: 9a18b664f8624234ab2067c6deb577a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706917082931
+status: 4
+tags: []
+user_id: reurairin

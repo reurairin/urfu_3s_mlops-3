@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/950609124052432356
+creation_time: 1706917082837
+experiment_id: '950609124052432356'
+last_update_time: 1706917082837
+lifecycle_stage: active
+name: preprocess_data
